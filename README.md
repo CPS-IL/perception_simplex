@@ -36,8 +36,8 @@ We will use the `SingleLaneRoad` map and the Lincoln 2017 Cyber-RT vehicle.
 Create copies of this vehicle and modify their name and configuration accordingly.
 The vehicle name and configuration source are as follows.
 
-* LincolnMission - [json](https://github.com/CPS-IL/apollo/lgsvl_pkgs/lgsvl_vehicles/lincoln_mission.json)
-* LincolnSafety - [json](https://github.com/CPS-IL/apollo/lgsvl_pkgs/lgsvl_vehicles/lincoln_safety.json)
+* LincolnMission - [json](https://github.com/CPS-IL/apollo/blob/main/lgsvl_pkgs/lgsvl_vehicles/lincoln_mission.json)
+* LincolnSafety - [json](https://github.com/CPS-IL/apollo/blob/main/lgsvl_pkgs/lgsvl_vehicles/lincoln_safety.json)
 
 The main point of difference between these two configurations is the source of the Apollo Car Control, between `/apollo/control` or `/apollo/safety_layer/decision/control`.
 
